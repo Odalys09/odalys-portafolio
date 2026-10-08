@@ -74,6 +74,7 @@ input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#d3365a;bo
 .proyecto:nth-child(3){border-top-color:var(--amarillo)}
 .cuadro{justify-self:start;width:min(100%,17rem);margin:0}
 .lienzo{position:relative;aspect-ratio:4/5;background:var(--superficie);border:10px solid var(--texto);overflow:hidden;box-shadow:0 22px 30px -20px color-mix(in srgb,var(--texto) 55%,transparent)}
+.lienzo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
 .forma{position:absolute;display:block;aspect-ratio:1}
 .f1{width:72%;border-radius:50%;background:var(--primario);left:-14%;top:8%}
 .f2{width:56%;background:var(--acento);right:-8%;bottom:9%;border-radius:12% 50% 12% 50%}
