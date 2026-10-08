@@ -65,6 +65,4 @@ Elegí mostrar cuatro proyectos, cada uno con imagen, descripción, tecnologías
 - Persona 2 (no técnica): _Me comentó que la página se ve muy bonita y que las imágenes ayudan a conocer mejor mi trabajo (mi arte)___
 - Qué cambié a partir de sus comentarios (mínimo 2 mejoras): _Revisé el contraste de los colores, comprobé la navegación con teclado y reduje algunos textos para que las secciones fueran más claras y fáciles de leer.___
 
-## 11. Uso de la IA
-- Qué me ayudó a mejorar la IA: _Me ayudó a identificar errores en el código, mejorar algunos estilos CSS y optimizar las imágenes.___
-- Qué sabía yo que la IA no detectó: _Yo conocía los requisitos específicos de la actividad y decidí qué cambios sí correspondían a mi diseño.___
+
