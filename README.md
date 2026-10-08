@@ -23,7 +23,7 @@ Descarga el repositorio y abre `index.html` en tu navegador. No requiere instala
 ## 📊 Resultados Lighthouse
 | Accessibility | Best Practices | Performance | SEO |
 |---|---|---|---|
-| __ | __ | __ | __ |
+| 99 | 100 | 100 | 100 |
 
 ## 🎓 Aprendizaje
 Proyecto del Capítulo 1: Fundamentos del Web FullStack, curso [Manual de Programación Junior].
