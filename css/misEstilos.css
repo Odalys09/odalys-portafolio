@@ -74,6 +74,9 @@ input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#d3365a;bo
 .proyecto:nth-child(3){border-top-color:var(--amarillo)}
 .cuadro{justify-self:start;width:min(100%,17rem);margin:0}
 .lienzo{position:relative;aspect-ratio:4/5;background:var(--superficie);border:10px solid var(--texto);overflow:hidden;box-shadow:0 22px 30px -20px color-mix(in srgb,var(--texto) 55%,transparent)}
+.proyecto img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;margin-bottom:var(--e2);border:1px solid var(--borde)}
+.enlace-proyecto{display:inline-block;margin-top:var(--e1);padding:.6rem 0;font-weight:500}
+.redes{margin-top:var(--e2)}
 .lienzo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
 .forma{position:absolute;display:block;aspect-ratio:1}
 .f1{width:72%;border-radius:50%;background:var(--primario);left:-14%;top:8%}
@@ -81,6 +84,39 @@ input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#d3365a;bo
 .f3{width:32%;border-radius:50%;background:var(--amarillo);right:16%;top:12%;mix-blend-mode:multiply}
 .placa{background:var(--superficie);border:1px solid var(--borde);margin-top:var(--e2);padding:.6rem .85rem;display:grid;gap:.1rem;width:max-content;max-width:100%;font-size:.95rem}
 .placa small{color:var(--suave)}
+
+/* ========== GENERADOR DE PALETAS ========== */
+.generador{padding:var(--e5) 0 var(--e6)}
+.generador h1{font-size:clamp(2rem,7vw,3.2rem);font-weight:800}
+.generador .intro{color:var(--suave);margin-top:var(--e2);max-width:40rem}
+.pista{color:var(--suave);font-size:.95rem;margin-top:var(--e1)}
+.paleta{list-style:none;display:grid;gap:var(--e2);margin-top:var(--e4)}
+.color{display:grid;gap:var(--e1)}
+.copiar{width:100%;min-height:6rem;border:1px solid var(--borde);border-radius:var(--radio);font:inherit;font-weight:700;font-size:1.2rem;letter-spacing:.04em;cursor:pointer}
+.copiar:hover{filter:brightness(1.08)}
+.fijar{display:flex;align-items:center;gap:.5rem;margin:0}
+.fijar input{width:auto;accent-color:var(--primario)}
+
+/* ========== PÁGINAS DE PROYECTO: GALERÍA Y SERIE ========== */
+.pagina-proyecto{padding:var(--e5) 0 var(--e6)}
+.pagina-proyecto h1{font-size:clamp(2rem,7vw,3.2rem);font-weight:800}
+.pagina-proyecto .intro{color:var(--suave);margin-top:var(--e2);max-width:42rem}
+.galeria{list-style:none;display:grid;gap:var(--e2);grid-template-columns:repeat(2,1fr);margin-top:var(--e4)}
+.miniatura{display:block;width:100%;padding:0;font:inherit;color:var(--texto);text-align:left;background:var(--superficie);border:1px solid var(--borde);border-radius:var(--radio);overflow:hidden;cursor:zoom-in}
+.miniatura:hover{border-color:var(--primario)}
+.miniatura img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
+.miniatura span{display:block;padding:.6rem .8rem;font-weight:500}
+.visor{border:0;padding:0;background:transparent;width:min(96vw,48rem);max-width:none;max-height:96vh;margin:auto}
+.visor::backdrop{background:rgba(0,0,0,.82)}
+.visor figure{margin:0;display:grid;gap:var(--e2);justify-items:center;background:var(--superficie);color:var(--texto);border-radius:var(--radio);padding:var(--e2)}
+.visor img{width:auto;height:auto;max-width:100%;max-height:70vh;object-fit:contain}
+.visor figcaption{font-weight:500;text-align:center}
+.visor-controles{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--e1);width:100%}
+.serie{display:grid;gap:var(--e3);margin-top:var(--e4)}
+.obra{margin:0}
+.obra img{width:100%;height:auto;border:1px solid var(--borde);border-radius:var(--radio)}
+.obra figcaption{margin-top:var(--e1);font-weight:500}
+.mas{margin-top:var(--e4)}
 
 /* ========== UTILIDADES ========== */
 :focus-visible{outline:3px solid var(--acento);outline-offset:3px;border-radius:3px}
@@ -97,7 +133,11 @@ input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#d3365a;bo
   .menu a{padding:.3rem 0}
   .hero .contenedor{grid-template-columns:1.6fr 1fr}
   .cuadro{justify-self:end}
-  .proyectos{grid-template-columns:repeat(3,1fr)}
+  .proyectos{grid-template-columns:repeat(2,1fr)}
   .habilidades{grid-template-columns:repeat(3,1fr)}
   .contacto-grid{grid-template-columns:1fr 1.4fr}
+  .paleta{grid-template-columns:repeat(5,1fr)}
+  .galeria{grid-template-columns:repeat(4,1fr)}
+  .serie{grid-template-columns:repeat(2,1fr)}
+  .copiar{min-height:12rem}
 }

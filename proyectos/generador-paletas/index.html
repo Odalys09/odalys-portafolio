@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Generador de paletas de colores al azar. Haz clic en un color para copiar su código hexadecimal.">
+<title>Generador de paletas — Odalys Rendón Peláez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Karla:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../css/misEstilos.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor barra">
+    <a class="marca" href="../../index.html#proyectos">← Volver al portafolio</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="generador" aria-labelledby="titulo-gen">
+    <div class="contenedor">
+      <h1 id="titulo-gen">Generador de paletas</h1>
+      <p class="intro">Crea combinaciones de cinco colores al azar. Haz clic en un color para copiar su código. Marca “Fijar” para conservar un color al generar otra paleta.</p>
+      <div class="botones">
+        <button class="btn btn-principal" id="generar" type="button">Generar nueva paleta</button>
+      </div>
+      <p class="pista">También puedes presionar la barra espaciadora.</p>
+      <ul class="paleta" id="paleta" aria-label="Paleta de colores"></ul>
+      <p class="estado" id="estado" role="status"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <p>&copy; 2026 Odalys Rendón Peláez. Construido con HTML5, CSS3 y JavaScript.</p>
+  </div>
+</footer>
+
+<script src="../../js/paletas.js" defer></script>
+</body>
+</html>

@@ -3,8 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Portafolio de Odalys Rendon, estudiante de técnico en computación apasionada por el arte.">
-<title>Odalys Rendon — Portafolio</title>
+<meta name="description" content="Portafolio de Odalys Rendón Peláez, estudiante de técnico en computación apasionada por el arte.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Odalys Rendón Peláez — Portafolio">
+<meta property="og:description" content="Arte que se ve y se programa. Portafolio de una estudiante de técnico en computación del CECyT No. 3, IPN.">
+<meta property="og:url" content="https://odalys09.github.io/odalys-portafolio/">
+<meta property="og:image" content="https://odalys09.github.io/odalys-portafolio/imagen/foto-odalys.jpeg">
+<title>Odalys Rendón Peláez — Portafolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Karla:wght@400;500&display=swap">
@@ -15,7 +21,7 @@
 
 <header class="cabecera">
   <div class="contenedor barra">
-    <a class="marca" href="#inicio">Odalys Rendon</a>
+    <a class="marca" href="#inicio">Odalys Rendón</a>
     <div class="herramientas">
       <nav class="menu" id="menu" aria-label="Principal">
         <ul>
@@ -36,7 +42,7 @@
   <section id="inicio" class="hero" aria-labelledby="titulo-hero">
     <div class="contenedor">
       <div>
-        <h1 id="titulo-hero">Rendon Pelaez Odalys</h1>
+        <h1 id="titulo-hero">Odalys Rendón Peláez</h1>
         <p class="frase">Arte que se ve y se programa</p>
         <p class="rol">Estudiante de técnico en computación en el CECyT No. 3. Me muevo entre el arte y la pantalla.</p>
         <div class="botones">
@@ -45,8 +51,8 @@
         </div>
       </div>
       <figure class="cuadro">
-        <div class="lienzo"><img src="imagen/foto-odalys.jpeg" alt="Foto de Odalys Rendon"></div>
-        <figcaption class="placa"><strong>Odalys Rendon</strong><span>Técnica mixta: código y color</span><small>CECyT No. 3, IPN</small></figcaption>
+        <div class="lienzo"><img src="imagen/foto-odalys.jpeg" alt="Retrato de Odalys Rendón Peláez sonriendo, con cabello oscuro suelto y un collar"></div>
+        <figcaption class="placa"><strong>Odalys Rendón Peláez</strong><span>Técnica mixta: código y color</span><small>CECyT No. 3, IPN</small></figcaption>
       </figure>
     </div>
   </section>
@@ -66,19 +72,32 @@
       <h2 id="t-proyectos">Galería</h2>
       <div class="proyectos">
         <article class="proyecto">
+          <img src="imagen/proyecto-galeria.jpg" alt="Cuatro de mis dibujos mostrados en franjas verticales: una casa, una niña de cabello rosa, un retrato a grafito y dos ajolotes" width="640" height="360">
           <h3>Galería digital</h3>
           <p>Página web que muestra mis dibujos en una cuadrícula, con una vista ampliada de cada obra.</p>
           <ul class="tecnologias" aria-label="Técnicas usadas"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <a class="enlace-proyecto" href="proyectos/galeria-digital/">Ver la galería</a>
         </article>
         <article class="proyecto">
+          <img src="imagen/proyecto-serie.jpg" alt="Cuatro dibujos a color en franjas verticales: un joven con lentes y una mariposa, una chica de cabello azul, un retrato en violeta y dos ajolotes" width="640" height="360">
           <h3>Serie de ilustraciones</h3>
-          <p>Cuatro ilustraciones digitales con una misma paleta de colores y un estilo en común.</p>
-          <ul class="tecnologias" aria-label="Técnicas usadas"><li>Ilustración digital</li><li>Teoría del color</li></ul>
+          <p>Cuatro dibujos hechos a mano con una misma paleta de rosas, violetas y azules, y un estilo en común.</p>
+          <ul class="tecnologias" aria-label="Técnicas usadas"><li>Dibujo a mano</li><li>Teoría del color</li></ul>
+          <a class="enlace-proyecto" href="proyectos/serie-ilustraciones/">Ver la serie</a>
         </article>
         <article class="proyecto">
+          <img src="imagen/proyecto-paletas.svg" alt="Ilustración de cinco barras verticales de colores que representan una paleta" width="320" height="180">
           <h3>Generador de paletas</h3>
           <p>Programa que crea combinaciones de colores al azar y permite copiar el código de cada uno.</p>
           <ul class="tecnologias" aria-label="Técnicas usadas"><li>JavaScript</li><li>CSS</li></ul>
+          <a class="enlace-proyecto" href="proyectos/generador-paletas/">Probar el generador</a>
+        </article>
+        <article class="proyecto">
+          <img src="imagen/proyecto-portafolio.svg" alt="Ilustración de una página web con encabezado, texto, botón y un retrato enmarcado" width="320" height="180">
+          <h3>Portafolio web</h3>
+          <p>Este sitio: HTML5 semántico, estilos con custom properties, modo oscuro, menú móvil y formulario validado, publicado en GitHub Pages.</p>
+          <ul class="tecnologias" aria-label="Técnicas usadas"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+          <a class="enlace-proyecto" href="https://github.com/Odalys09/odalys-portafolio">Ver código en GitHub</a>
         </article>
       </div>
     </div>
@@ -109,6 +128,7 @@
       <div>
         <h2 id="t-contacto">Contacto</h2>
         <p>¿Quieres colaborar o tienes una pregunta? Escríbeme a <a href="mailto:rendon.pelaez.odalys@gmail.com">rendon.pelaez.odalys@gmail.com</a>.</p>
+        <p class="redes">Mi código está en GitHub: <a href="https://github.com/Odalys09">github.com/Odalys09</a></p>
       </div>
       <form id="form" novalidate>
         <div>
@@ -135,77 +155,10 @@
 
 <footer class="pie">
   <div class="contenedor">
-    <p>&copy; 2026 Rendon Pelaez Odalys. Construido con HTML5, CSS3 y JavaScript.</p>
+    <p>&copy; 2026 Odalys Rendón Peláez. Construido con HTML5, CSS3 y JavaScript.</p>
   </div>
 </footer>
 
-<script>
-(function(){
-// app.js — interactividad: tema oscuro, menú móvil y formulario con PHP
-const raiz = document.documentElement;
-const $ = (id) => document.getElementById(id);
-
-/* Modo oscuro */
-const btnTema = $('tema');
-const oscuro = () => raiz.dataset.theme === 'dark' || (raiz.dataset.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
-function pintarTema() {
-  const o = oscuro();
-  btnTema.textContent = o ? '☀' : '☾';
-  btnTema.setAttribute('aria-pressed', String(o));
-  btnTema.setAttribute('aria-label', o ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
-}
-try { const g = localStorage.getItem('tema'); if (g) raiz.dataset.theme = g; } catch (e) {}
-pintarTema();
-btnTema.addEventListener('click', () => {
-  raiz.dataset.theme = oscuro() ? 'light' : 'dark';
-  try { localStorage.setItem('tema', raiz.dataset.theme); } catch (e) {}
-  pintarTema();
-});
-
-/* Menú hamburguesa */
-const btnMenu = $('boton-menu'), menu = $('menu');
-function cerrar() {
-  menu.classList.remove('abierto');
-  btnMenu.setAttribute('aria-expanded', 'false');
-  btnMenu.setAttribute('aria-label', 'Abrir menú');
-}
-btnMenu.addEventListener('click', () => {
-  const abierto = menu.classList.toggle('abierto');
-  btnMenu.setAttribute('aria-expanded', String(abierto));
-  btnMenu.setAttribute('aria-label', abierto ? 'Cerrar menú' : 'Abrir menú');
-});
-menu.addEventListener('click', (e) => { if (e.target.tagName === 'A') cerrar(); });
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && menu.classList.contains('abierto')) { cerrar(); btnMenu.focus(); }
-});
-
-/* Formulario: validación y envío por correo (mailto) */
-const form = $('form'), estado = $('estado');
-const reglas = {
-  nombre: (v) => v.trim().length < 2 ? 'Escribe tu nombre (mínimo 2 letras).' : '',
-  correo: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) ? '' : 'Escribe un correo válido, por ejemplo nombre@correo.com.',
-  mensaje: (v) => v.trim().length < 10 ? 'Escribe un mensaje de al menos 10 caracteres.' : '',
-};
-function validar(campo) {
-  const el = form.elements[campo], msg = reglas[campo](el.value);
-  $('e-' + campo).textContent = msg;
-  el.setAttribute('aria-invalid', msg ? 'true' : 'false');
-  return !msg;
-}
-Object.keys(reglas).forEach((c) => form.elements[c].addEventListener('blur', () => validar(c)));
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  let primero = null;
-  Object.keys(reglas).forEach((c) => { if (!validar(c) && !primero) primero = form.elements[c]; });
-  if (primero) { estado.textContent = 'Revisa los campos marcados.'; primero.focus(); return; }
-  estado.textContent = 'Listo. Se abrirá tu app de correo para enviar el mensaje.';
-  const n = form.elements.nombre.value.trim();
-  const asunto = encodeURIComponent('Mensaje desde tu portafolio — ' + n);
-  const cuerpo = encodeURIComponent(form.elements.mensaje.value.trim() + '\n\n' + n + ' (' + form.elements.correo.value.trim() + ')');
-  location.href = 'mailto:rendon.pelaez.odalys@gmail.com?subject=' + asunto + '&body=' + cuerpo;
-  form.reset();
-});
-})();
-</script>
+<script src="js/app.js" defer></script>
 </body>
 </html>
