@@ -23,12 +23,12 @@ Descarga el repositorio y abre `index.html` en tu navegador. No requiere instala
 ## 📊 Resultados Lighthouse
 | Accessibility | Best Practices | Performance | SEO |
 |---|---|---|---|
-| 99 | 100 | 100 | 100 |
+| 97 | 100 | 100 | 100 |
 
 ## 🎓 Aprendizaje
 Proyecto del Capítulo 1: Fundamentos del Web FullStack, curso [Manual de Programación Junior].
 
 ## 📬 Contacto
 - Email: rendon.pelaez.odalys@gmail.com
-- LinkedIn: [tu-linkedin]
-- GitHub: [@tu-usuario]
+- LinkedIn: [Rendón Peláez Odalys]
+- GitHub: [Odalys09](https://github.com/Odalys09)
